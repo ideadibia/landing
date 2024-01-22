@@ -48,6 +48,7 @@ a {
 
 a:hover {
     font-style: italic;
+    text-decoration: underline;
 }
 
 h6 {
