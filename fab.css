@@ -55,20 +55,12 @@ h6 {
 }
 
  @media(max-width: 600px) {
-    #all {
-      position: relative;
-      margin-left: 20%;
+    #all .bar {
+      order: 1;
     }
-  
-    .bar {
-      z-index: 1;
-      width: 60%;
-      margin-left: 20%;
-    }
-  
-    .details {
-      clear: both;
-      z-index: 2;
+
+    #all .details {
+      order: 2;
     }
   }
 
