@@ -55,7 +55,7 @@ h6 {
     text-decoration: none;
 }
 
- @media(max-width: 800px) {
+/* @media(max-width: 800px) {
     #all .bar {
       order: 1;
     }
@@ -63,7 +63,7 @@ h6 {
     #all .details {
       order: 2;
     }
-  }
+  } */
 
   table {
     /* font-family: Verdana; */
