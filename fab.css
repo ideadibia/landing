@@ -36,7 +36,7 @@ body {
 }
 
 .details {
-    float: left;
+    float: right;
     width: 60%;
     overflow: auto;
 }
