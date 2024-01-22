@@ -54,7 +54,7 @@ h6 {
     text-decoration: none;
 }
 
- @media(max-width: 600px) {
+ @media(max-width: 800px) {
     #all .bar {
       order: 1;
     }
