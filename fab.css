@@ -1,0 +1,98 @@
+/* body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+a {
+    color: #beb647;
+}
+
+p.indented {
+    text-indent: 50px;
+} */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1200px;
+    height: 900px;
+    margin: auto;
+}
+
+#all {
+    width: 100%;
+    margin: 10%;
+}
+
+.bar {
+    float: left;
+    width: 20%;
+    color: blue;
+}
+
+.details {
+    float: left;
+    width: 60%;
+    overflow: auto;
+}
+
+a {
+    color: #beb647;
+    text-decoration: none;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+h6 {
+    text-decoration: none;
+}
+
+ @media(max-width: 800px) {
+    #all {
+      position: relative;
+      margin-left: 20%;
+    }
+  
+    .bar {
+      z-index: 1;
+      width: 60%;
+      margin-left: 20%;
+    }
+  
+    .details {
+      clear: both;
+      z-index: 2;
+    }
+  }
+
+  table {
+    /* font-family: Verdana; */
+    font-size: 14px;
+    border-collapse: collapse;
+    /* width: 100%; */
+  }
+  
+  td, th {
+    padding: 10px;
+    text-align: left;
+    margin: 0;
+  }
+  
+  tbody tr:nth-child(2n){
+    background-color: #eee;
+  }
+  
+  /* th {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: white;
+  } */
+
