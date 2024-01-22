@@ -56,6 +56,13 @@ h6 {
   tbody tr:nth-child(2n){
     background-color: #eee;
   }
+
+@media (max-width: 600px) {
+    #all {
+        flex-direction: column;
+        flex: none;
+    }
+}
   
   /* th {
     position: sticky;
