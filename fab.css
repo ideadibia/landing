@@ -10,20 +10,23 @@ body {
 }
 
 #all {
-    width: 100%;
-    margin: 10%;
+    /* width: 100%;
+    margin: 10%; */
+    display: flex;
+    flex-direction: row;
 }
 
-.bar {
-    float: left;
-    width: 20%;
-    color: blue;
+#all .bar {
+    /* float: left;
+    width: 20%; */
+    flex: 1;
 }
 
-.details {
-    float: left;
+#all .details {
+    /* float: left;
     width: 60%;
-    overflow: auto;
+    overflow: auto; */
+    flex: 2;
 }
 
 a {
