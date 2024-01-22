@@ -13,10 +13,6 @@ a {
     color: #beb647;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
 p.indented {
     text-indent: 50px;
 }
