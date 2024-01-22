@@ -55,15 +55,6 @@ h6 {
   tbody tr:nth-child(2n){
     background-color: #eee;
   }
-
-@media (max-width: 1000px) {
-    #all {
-        flex-direction: column;
-    }
-    #all .bar, #all .details {
-        flex: none;  /* Each div will take up the full width of the screen */
-    }
-}
   
   /* th {
     position: sticky;
