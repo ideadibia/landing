@@ -9,7 +9,7 @@ body {
     margin: auto;
 }
 
-.all {
+#all {
     width: 100%;
     margin: 10%;
 }
@@ -58,10 +58,10 @@ h6 {
   }
 
 @media (max-width: 600px) {
-    .all {
+    #all {
         flex-direction: column;
     }
-    .all .bar, .all .details {
+    #all .bar, #all .details {
         flex: none;  /* Each div will take up the full width of the screen */
     }
 }
