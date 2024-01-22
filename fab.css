@@ -1,28 +1,34 @@
 p.indented {
-    text-indent: 50px;
+    /* text-indent: 50px; */
+    font-size: 0.8em;
 } 
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 1200px;
+    width: 600px;
     /* height: 900px; */
     margin: auto;
+    align-items: center;
 }
 
 #all {
-    width: 100%;
+    /* width: 50%; */
     margin: 10%;
 }
 
 #all .bar {
     float: left;
-    width: 20%;
+    width: 20%; 
 }
 
 #all .details {
     float: left;
-    width: 60%;
     overflow: auto;
+    width: 60%;
+}
+
+@media (max-width: 600px) {
+  
 }
 
 a {
