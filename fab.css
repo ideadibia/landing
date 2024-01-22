@@ -14,6 +14,9 @@ body {
     margin: 10%; */
     display: flex;
     flex-direction: row;
+    justify-content: center;  /* Horizontally center the divs */
+    align-items: center;  /* Vertically center the divs */
+    height: 100vh;  /* Full height of the viewport */
 }
 
 #all .bar {
