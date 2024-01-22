@@ -60,7 +60,7 @@ h6 {
     background-color: #eee;
   }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     #all {
         flex-direction: column;
     }
