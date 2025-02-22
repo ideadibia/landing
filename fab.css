@@ -35,13 +35,13 @@ body {
 
 @media only screen and (max-width: 720px) {
     body {
-        width:648px
+        width:648px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     body {
-        width:540px
+        width:540px;
     }
 }
 
