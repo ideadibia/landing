@@ -33,15 +33,21 @@ body {
     width: 60%;
 }
 
+@media only screen and (max-width: 900px) {
+    body {
+        width:90%;
+    }
+}
+
 @media only screen and (max-width: 720px) {
     body {
-        width:648px;
+        width:90%;
     }
 }
 
 @media only screen and (max-width: 600px) {
     body {
-        width:540px;
+        width:90%;
     }
 }
 
