@@ -6,15 +6,16 @@ p.indented {
 html {
     width: 100%;
     font-family: "Segoe UI",Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px
+    font-size: 16px;
 }
 
 body {
     width: 720px;
     /* height: 900px; */
     margin: 0 auto;
-    line-height: 28px
+    line-height: 28px;
     /* align-items: center; */
+    max-width: 100%;
 }
 
 #all {
