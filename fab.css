@@ -35,6 +35,40 @@ body {
     width: 60%;
 } */
 
+.bar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* First and Second divs */
+.first {
+  flex: 1;
+  min-width: 300px;
+}
+
+.second {
+  flex: 1;
+  min-width: 300px;
+}
+
+.second img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Third div */
+.third {
+  margin-top: 20px;
+}
+
+/* 
 .top {
     float: left;
     width: 20%; 
@@ -43,15 +77,24 @@ body {
 .photo {
     float: right;
     width: 75%; 
-}
+} */
 
 @media only screen and (max-width: 900px) {
     body {
         width:99%;
     }
-    .top, .photo {
-        float: none;
-    }
+    .bar {
+    flex-direction: column;
+  }
+
+  .first,
+  .second {
+    width: 100%;
+  }
+
+  .third {
+    width: 100%;
+  }
 }
 /* 
 @media only screen and (max-width: 720px) {
