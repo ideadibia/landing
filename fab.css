@@ -50,8 +50,8 @@ body {
   margin-top: 20px;
 }
 
-@media only screen and (max-width: 420px) {
-    body {
+@media only screen and (max-width: 480px) {
+    #all {
         padding: 20px;
     }
     .bar {
