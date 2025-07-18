@@ -51,6 +51,9 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+    body {
+        width: 99%;
+    }
     #all {
         padding: 20px;
     }
