@@ -18,6 +18,7 @@ body {
     max-width: 100%;
 }
 
+/*
 #all {
     /* width: 50%; */
     margin: 10%;
@@ -32,12 +33,25 @@ body {
     float: left;
     overflow: auto;
     width: 60%;
+} */
+
+.top {
+    float: left;
+    width: 20%; 
 }
 
+.photo {
+    float: right;
+    overflow: auto;
+    width: 75%; 
+}
 
 @media only screen and (max-width: 900px) {
     body {
         width:99%;
+    }
+    .top, .photo {
+        float: none;
     }
 }
 /* 
