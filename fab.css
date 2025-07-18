@@ -31,12 +31,11 @@ body {
 
 /* First and Second divs */
 .first {
-  flex: 1;
-  min-width: 35%;
+  flex: 7;
 }
 
 .second {
-  flex: 1;
+  flex: 13;
 }
 
 .second img {
