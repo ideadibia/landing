@@ -42,7 +42,6 @@ body {
 
 .photo {
     float: right;
-    overflow: auto;
     width: 75%; 
 }
 
