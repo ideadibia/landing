@@ -49,12 +49,11 @@ body {
 /* First and Second divs */
 .first {
   flex: 1;
-  min-width: 300px;
+  min-width: 35%;
 }
 
 .second {
   flex: 1;
-  min-width: 300px;
 }
 
 .second img {
